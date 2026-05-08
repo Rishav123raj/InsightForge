@@ -1,0 +1,151 @@
+viewer_id,age_segment,city,country,subscription_tier,email
+v1,18-24,New York,US,Premium,viewer1@example.internal
+v2,35-44,Los Angeles,US,Basic,viewer2@example.internal
+v3,25-34,Miami,US,Basic,viewer3@example.internal
+v4,18-24,Seattle,US,Plus,viewer4@example.internal
+v5,18-24,New York,US,Basic,viewer5@example.internal
+v6,25-34,Los Angeles,US,Premium,viewer6@example.internal
+v7,18-24,Seattle,US,Basic,viewer7@example.internal
+v8,45-54,Los Angeles,US,Plus,viewer8@example.internal
+v9,35-44,New York,US,Basic,viewer9@example.internal
+v10,45-54,Chicago,US,Plus,viewer10@example.internal
+v11,25-34,Los Angeles,US,Plus,viewer11@example.internal
+v12,18-24,New York,US,Plus,viewer12@example.internal
+v13,18-24,Chicago,US,Plus,viewer13@example.internal
+v14,35-44,New York,US,Premium,viewer14@example.internal
+v15,45-54,Seattle,US,Basic,viewer15@example.internal
+v16,45-54,New York,US,Premium,viewer16@example.internal
+v17,35-44,Miami,US,Premium,viewer17@example.internal
+v18,35-44,Seattle,US,Basic,viewer18@example.internal
+v19,18-24,New York,US,Premium,viewer19@example.internal
+v20,25-34,Chicago,US,Basic,viewer20@example.internal
+v21,25-34,New York,US,Plus,viewer21@example.internal
+v22,35-44,Austin,US,Premium,viewer22@example.internal
+v23,35-44,Los Angeles,US,Plus,viewer23@example.internal
+v24,35-44,Los Angeles,US,Premium,viewer24@example.internal
+v25,35-44,Miami,US,Premium,viewer25@example.internal
+v26,18-24,Seattle,US,Premium,viewer26@example.internal
+v27,25-34,Seattle,US,Premium,viewer27@example.internal
+v28,25-34,Los Angeles,US,Plus,viewer28@example.internal
+v29,45-54,Chicago,US,Premium,viewer29@example.internal
+v30,25-34,Miami,US,Plus,viewer30@example.internal
+v31,18-24,Los Angeles,US,Basic,viewer31@example.internal
+v32,35-44,Austin,US,Plus,viewer32@example.internal
+v33,18-24,Los Angeles,US,Premium,viewer33@example.internal
+v34,35-44,Los Angeles,US,Premium,viewer34@example.internal
+v35,45-54,Austin,US,Premium,viewer35@example.internal
+v36,45-54,Los Angeles,US,Plus,viewer36@example.internal
+v37,25-34,Los Angeles,US,Premium,viewer37@example.internal
+v38,35-44,Miami,US,Premium,viewer38@example.internal
+v39,45-54,Seattle,US,Plus,viewer39@example.internal
+v40,35-44,Los Angeles,US,Basic,viewer40@example.internal
+v41,45-54,New York,US,Basic,viewer41@example.internal
+v42,18-24,Los Angeles,US,Premium,viewer42@example.internal
+v43,25-34,Miami,US,Plus,viewer43@example.internal
+v44,18-24,Austin,US,Plus,viewer44@example.internal
+v45,45-54,Seattle,US,Plus,viewer45@example.internal
+v46,18-24,Miami,US,Premium,viewer46@example.internal
+v47,18-24,Miami,US,Premium,viewer47@example.internal
+v48,35-44,Miami,US,Plus,viewer48@example.internal
+v49,18-24,Chicago,US,Plus,viewer49@example.internal
+v50,25-34,Austin,US,Basic,viewer50@example.internal
+v51,35-44,Seattle,US,Basic,viewer51@example.internal
+v52,18-24,Miami,US,Plus,viewer52@example.internal
+v53,25-34,Los Angeles,US,Plus,viewer53@example.internal
+v54,25-34,Seattle,US,Premium,viewer54@example.internal
+v55,18-24,Seattle,US,Plus,viewer55@example.internal
+v56,45-54,New York,US,Basic,viewer56@example.internal
+v57,35-44,Chicago,US,Basic,viewer57@example.internal
+v58,18-24,Los Angeles,US,Premium,viewer58@example.internal
+v59,18-24,New York,US,Premium,viewer59@example.internal
+v60,45-54,New York,US,Premium,viewer60@example.internal
+v61,25-34,Los Angeles,US,Premium,viewer61@example.internal
+v62,45-54,Seattle,US,Basic,viewer62@example.internal
+v63,35-44,Seattle,US,Premium,viewer63@example.internal
+v64,45-54,Los Angeles,US,Premium,viewer64@example.internal
+v65,25-34,Miami,US,Plus,viewer65@example.internal
+v66,45-54,Miami,US,Premium,viewer66@example.internal
+v67,35-44,Austin,US,Premium,viewer67@example.internal
+v68,45-54,New York,US,Basic,viewer68@example.internal
+v69,25-34,New York,US,Plus,viewer69@example.internal
+v70,18-24,Seattle,US,Premium,viewer70@example.internal
+v71,25-34,Seattle,US,Basic,viewer71@example.internal
+v72,18-24,New York,US,Premium,viewer72@example.internal
+v73,18-24,Los Angeles,US,Basic,viewer73@example.internal
+v74,18-24,Chicago,US,Basic,viewer74@example.internal
+v75,25-34,Chicago,US,Premium,viewer75@example.internal
+v76,45-54,Los Angeles,US,Premium,viewer76@example.internal
+v77,25-34,Miami,US,Premium,viewer77@example.internal
+v78,45-54,Los Angeles,US,Plus,viewer78@example.internal
+v79,45-54,Los Angeles,US,Basic,viewer79@example.internal
+v80,18-24,Miami,US,Plus,viewer80@example.internal
+v81,35-44,Austin,US,Plus,viewer81@example.internal
+v82,45-54,Miami,US,Basic,viewer82@example.internal
+v83,18-24,New York,US,Plus,viewer83@example.internal
+v84,35-44,New York,US,Basic,viewer84@example.internal
+v85,25-34,Los Angeles,US,Premium,viewer85@example.internal
+v86,45-54,Los Angeles,US,Plus,viewer86@example.internal
+v87,25-34,Chicago,US,Plus,viewer87@example.internal
+v88,25-34,New York,US,Plus,viewer88@example.internal
+v89,18-24,New York,US,Premium,viewer89@example.internal
+v90,18-24,New York,US,Basic,viewer90@example.internal
+v91,25-34,Austin,US,Plus,viewer91@example.internal
+v92,45-54,Los Angeles,US,Plus,viewer92@example.internal
+v93,18-24,Los Angeles,US,Plus,viewer93@example.internal
+v94,18-24,Austin,US,Plus,viewer94@example.internal
+v95,45-54,Chicago,US,Plus,viewer95@example.internal
+v96,45-54,Los Angeles,US,Basic,viewer96@example.internal
+v97,35-44,Los Angeles,US,Basic,viewer97@example.internal
+v98,18-24,Miami,US,Plus,viewer98@example.internal
+v99,18-24,New York,US,Premium,viewer99@example.internal
+v100,45-54,Seattle,US,Premium,viewer100@example.internal
+v101,25-34,New York,US,Premium,viewer101@example.internal
+v102,18-24,Los Angeles,US,Basic,viewer102@example.internal
+v103,18-24,Miami,US,Basic,viewer103@example.internal
+v104,45-54,New York,US,Premium,viewer104@example.internal
+v105,25-34,Seattle,US,Premium,viewer105@example.internal
+v106,18-24,Seattle,US,Basic,viewer106@example.internal
+v107,45-54,Miami,US,Premium,viewer107@example.internal
+v108,35-44,Chicago,US,Basic,viewer108@example.internal
+v109,35-44,Los Angeles,US,Plus,viewer109@example.internal
+v110,45-54,Los Angeles,US,Premium,viewer110@example.internal
+v111,35-44,Austin,US,Plus,viewer111@example.internal
+v112,18-24,New York,US,Plus,viewer112@example.internal
+v113,18-24,New York,US,Premium,viewer113@example.internal
+v114,25-34,Seattle,US,Plus,viewer114@example.internal
+v115,25-34,Chicago,US,Basic,viewer115@example.internal
+v116,25-34,Chicago,US,Plus,viewer116@example.internal
+v117,25-34,Austin,US,Premium,viewer117@example.internal
+v118,35-44,Seattle,US,Premium,viewer118@example.internal
+v119,18-24,Miami,US,Premium,viewer119@example.internal
+v120,35-44,Miami,US,Basic,viewer120@example.internal
+v121,25-34,Chicago,US,Basic,viewer121@example.internal
+v122,18-24,Miami,US,Premium,viewer122@example.internal
+v123,25-34,Chicago,US,Plus,viewer123@example.internal
+v124,25-34,Miami,US,Plus,viewer124@example.internal
+v125,25-34,Miami,US,Premium,viewer125@example.internal
+v126,35-44,Seattle,US,Plus,viewer126@example.internal
+v127,35-44,New York,US,Basic,viewer127@example.internal
+v128,45-54,Chicago,US,Basic,viewer128@example.internal
+v129,18-24,Chicago,US,Basic,viewer129@example.internal
+v130,35-44,Los Angeles,US,Premium,viewer130@example.internal
+v131,45-54,Seattle,US,Premium,viewer131@example.internal
+v132,45-54,Seattle,US,Basic,viewer132@example.internal
+v133,18-24,New York,US,Premium,viewer133@example.internal
+v134,25-34,Seattle,US,Basic,viewer134@example.internal
+v135,35-44,Seattle,US,Premium,viewer135@example.internal
+v136,25-34,Austin,US,Basic,viewer136@example.internal
+v137,18-24,Chicago,US,Plus,viewer137@example.internal
+v138,18-24,Chicago,US,Basic,viewer138@example.internal
+v139,25-34,Miami,US,Basic,viewer139@example.internal
+v140,35-44,Seattle,US,Plus,viewer140@example.internal
+v141,25-34,Los Angeles,US,Basic,viewer141@example.internal
+v142,25-34,Austin,US,Basic,viewer142@example.internal
+v143,25-34,Miami,US,Plus,viewer143@example.internal
+v144,45-54,Miami,US,Premium,viewer144@example.internal
+v145,25-34,Chicago,US,Basic,viewer145@example.internal
+v146,18-24,Austin,US,Basic,viewer146@example.internal
+v147,45-54,Los Angeles,US,Basic,viewer147@example.internal
+v148,45-54,Chicago,US,Plus,viewer148@example.internal
+v149,25-34,Los Angeles,US,Basic,viewer149@example.internal
+v150,25-34,Austin,US,Plus,viewer150@example.internal

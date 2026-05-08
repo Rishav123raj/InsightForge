@@ -1,0 +1,8 @@
+movie_id,title,genre,release_date,budget,studio
+m1,Stellar Run,Sci-Fi,2025-02-14,90000000,Orion
+m2,Dark Orbit,Sci-Fi,2025-04-18,110000000,Orion
+m3,Last Kingdom,Drama,2025-03-07,70000000,Northstar
+m4,Laugh Track,Comedy,2025-06-20,35000000,Sunny
+m5,City Beats,Musical,2025-08-01,45000000,Pulse
+m6,Midnight Chef,Comedy,2025-10-10,25000000,Sunny
+m7,Rogue Signal,Action,2025-09-12,85000000,Northstar

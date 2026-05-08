@@ -1,0 +1,253 @@
+spend_id,movie_id,campaign,channel,spend_date,amount,impressions,clicks
+s1,m1,Stellar Run Launch,Search,2025-01-15,50682.8,1313714,77423
+s2,m1,Stellar Run Launch,Social,2025-01-15,118981.8,3683516,212575
+s3,m1,Stellar Run Launch,Streaming Promo,2025-01-15,130233.6,3942994,119182
+s4,m1,Stellar Run Launch,Search,2025-02-15,47299.0,1170096,72449
+s5,m1,Stellar Run Launch,Social,2025-02-15,152140.8,2958393,152249
+s6,m1,Stellar Run Launch,Streaming Promo,2025-02-15,101514.0,3026703,220143
+s7,m1,Stellar Run Launch,Search,2025-03-15,102215.4,3555858,154956
+s8,m1,Stellar Run Launch,Social,2025-03-15,55042.4,1709396,52359
+s9,m1,Stellar Run Launch,Streaming Promo,2025-03-15,74001.2,1947623,83114
+s10,m1,Stellar Run Launch,Search,2025-04-15,149493.4,3956235,225243
+s11,m1,Stellar Run Launch,Social,2025-04-15,127537.2,3040673,255526
+s12,m1,Stellar Run Launch,Streaming Promo,2025-04-15,128304.4,2348021,239871
+s13,m1,Stellar Run Launch,Search,2025-05-15,118015.8,3448579,207651
+s14,m1,Stellar Run Launch,Social,2025-05-15,133000.0,3456259,211091
+s15,m1,Stellar Run Launch,Streaming Promo,2025-05-15,56681.8,1508509,76403
+s16,m1,Stellar Run Launch,Search,2025-06-15,93576.0,2339662,82256
+s17,m1,Stellar Run Launch,Social,2025-06-15,72815.4,1617189,124318
+s18,m1,Stellar Run Launch,Streaming Promo,2025-06-15,136729.6,2658571,241079
+s19,m1,Stellar Run Launch,Search,2025-07-15,117614.0,2317109,205254
+s20,m1,Stellar Run Launch,Social,2025-07-15,89649.0,2370717,173564
+s21,m1,Stellar Run Launch,Streaming Promo,2025-07-15,150465.0,3576879,249886
+s22,m1,Stellar Run Launch,Search,2025-08-15,125449.8,3271675,137196
+s23,m1,Stellar Run Launch,Social,2025-08-15,42067.2,1223151,51430
+s24,m1,Stellar Run Launch,Streaming Promo,2025-08-15,83032.6,2105663,129192
+s25,m1,Stellar Run Launch,Search,2025-09-15,140746.2,4573853,291284
+s26,m1,Stellar Run Launch,Social,2025-09-15,131882.8,4002966,116562
+s27,m1,Stellar Run Launch,Streaming Promo,2025-09-15,64818.6,1568134,65262
+s28,m1,Stellar Run Launch,Search,2025-10-15,73064.6,2305170,90217
+s29,m1,Stellar Run Launch,Social,2025-10-15,117068.0,3221363,165134
+s30,m1,Stellar Run Launch,Streaming Promo,2025-10-15,146710.2,4899555,158855
+s31,m1,Stellar Run Launch,Search,2025-11-15,44570.4,1102993,88059
+s32,m1,Stellar Run Launch,Social,2025-11-15,53792.2,1184111,86033
+s33,m1,Stellar Run Launch,Streaming Promo,2025-11-15,119795.2,4056253,183375
+s34,m1,Stellar Run Launch,Search,2025-12-15,108642.8,2709810,218161
+s35,m1,Stellar Run Launch,Social,2025-12-15,38262.0,1007671,50681
+s36,m1,Stellar Run Launch,Streaming Promo,2025-12-15,48728.4,1139286,67892
+s37,m2,Dark Orbit Launch,Search,2025-01-15,103748,3557956,135702
+s38,m2,Dark Orbit Launch,Social,2025-01-15,109816,2204546,221140
+s39,m2,Dark Orbit Launch,Streaming Promo,2025-01-15,77986,1918768,161719
+s40,m2,Dark Orbit Launch,Search,2025-02-15,81746,2495542,171429
+s41,m2,Dark Orbit Launch,Social,2025-02-15,63610,1920739,128967
+s42,m2,Dark Orbit Launch,Streaming Promo,2025-02-15,33159,1061579,58952
+s43,m2,Dark Orbit Launch,Search,2025-03-15,40686,904989,73193
+s44,m2,Dark Orbit Launch,Social,2025-03-15,105089,3255002,208679
+s45,m2,Dark Orbit Launch,Streaming Promo,2025-03-15,109883,2744369,232422
+s46,m2,Dark Orbit Launch,Search,2025-04-15,93207,2703078,156334
+s47,m2,Dark Orbit Launch,Social,2025-04-15,31662,1094244,34118
+s48,m2,Dark Orbit Launch,Streaming Promo,2025-04-15,111915,3635125,97332
+s49,m2,Dark Orbit Launch,Search,2025-05-15,37065,938939,40372
+s50,m2,Dark Orbit Launch,Social,2025-05-15,48254,1684958,57719
+s51,m2,Dark Orbit Launch,Streaming Promo,2025-05-15,108760,2307797,114471
+s52,m2,Dark Orbit Launch,Search,2025-06-15,116482,3279239,105099
+s53,m2,Dark Orbit Launch,Social,2025-06-15,93007,1767020,117747
+s54,m2,Dark Orbit Launch,Streaming Promo,2025-06-15,50781,1320603,65813
+s55,m2,Dark Orbit Launch,Search,2025-07-15,84597,2860694,171652
+s56,m2,Dark Orbit Launch,Social,2025-07-15,37290,728050,66911
+s57,m2,Dark Orbit Launch,Streaming Promo,2025-07-15,76744,1566385,73948
+s58,m2,Dark Orbit Launch,Search,2025-08-15,103447,3265795,90465
+s59,m2,Dark Orbit Launch,Social,2025-08-15,39480,747263,41706
+s60,m2,Dark Orbit Launch,Streaming Promo,2025-08-15,81636,1830589,145993
+s61,m2,Dark Orbit Launch,Search,2025-09-15,106918,2989054,172882
+s62,m2,Dark Orbit Launch,Social,2025-09-15,20540,553394,32845
+s63,m2,Dark Orbit Launch,Streaming Promo,2025-09-15,74580,2509395,85365
+s64,m2,Dark Orbit Launch,Search,2025-10-15,97883,2856823,123449
+s65,m2,Dark Orbit Launch,Social,2025-10-15,25747,750652,54873
+s66,m2,Dark Orbit Launch,Streaming Promo,2025-10-15,62587,2134599,137675
+s67,m2,Dark Orbit Launch,Search,2025-11-15,104825,3227928,179847
+s68,m2,Dark Orbit Launch,Social,2025-11-15,35807,826257,68804
+s69,m2,Dark Orbit Launch,Streaming Promo,2025-11-15,116454,3692523,143720
+s70,m2,Dark Orbit Launch,Search,2025-12-15,80755,2382230,137820
+s71,m2,Dark Orbit Launch,Social,2025-12-15,113537,2342970,169561
+s72,m2,Dark Orbit Launch,Streaming Promo,2025-12-15,102517,2973283,94065
+s73,m3,Last Kingdom Launch,Search,2025-01-15,94511,3007152,122641
+s74,m3,Last Kingdom Launch,Social,2025-01-15,96751,1876009,145593
+s75,m3,Last Kingdom Launch,Streaming Promo,2025-01-15,34933,1068557,50584
+s76,m3,Last Kingdom Launch,Search,2025-02-15,76858,2081652,62115
+s77,m3,Last Kingdom Launch,Social,2025-02-15,35293,643256,60637
+s78,m3,Last Kingdom Launch,Streaming Promo,2025-02-15,80314,2390201,161936
+s79,m3,Last Kingdom Launch,Search,2025-03-15,105162,2325159,208107
+s80,m3,Last Kingdom Launch,Social,2025-03-15,90593,1924697,110639
+s81,m3,Last Kingdom Launch,Streaming Promo,2025-03-15,80742,1656730,112282
+s82,m3,Last Kingdom Launch,Search,2025-04-15,116610,3246100,212639
+s83,m3,Last Kingdom Launch,Social,2025-04-15,58112,1082585,79006
+s84,m3,Last Kingdom Launch,Streaming Promo,2025-04-15,87286,2448168,144553
+s85,m3,Last Kingdom Launch,Search,2025-05-15,65068,1655842,98297
+s86,m3,Last Kingdom Launch,Social,2025-05-15,97025,3245893,123688
+s87,m3,Last Kingdom Launch,Streaming Promo,2025-05-15,98918,3215697,178178
+s88,m3,Last Kingdom Launch,Search,2025-06-15,74523,2536161,111129
+s89,m3,Last Kingdom Launch,Social,2025-06-15,50765,1094511,43955
+s90,m3,Last Kingdom Launch,Streaming Promo,2025-06-15,22376,539247,26070
+s91,m3,Last Kingdom Launch,Search,2025-07-15,110457,3628824,181812
+s92,m3,Last Kingdom Launch,Social,2025-07-15,33650,1009798,70573
+s93,m3,Last Kingdom Launch,Streaming Promo,2025-07-15,77386,2444064,166202
+s94,m3,Last Kingdom Launch,Search,2025-08-15,40223,1166490,51020
+s95,m3,Last Kingdom Launch,Social,2025-08-15,38058,764612,41203
+s96,m3,Last Kingdom Launch,Streaming Promo,2025-08-15,74493,2314998,60281
+s97,m3,Last Kingdom Launch,Search,2025-09-15,87653,2761799,114517
+s98,m3,Last Kingdom Launch,Social,2025-09-15,23901,610045,44891
+s99,m3,Last Kingdom Launch,Streaming Promo,2025-09-15,114060,3616408,241932
+s100,m3,Last Kingdom Launch,Search,2025-10-15,61116,2044753,49568
+s101,m3,Last Kingdom Launch,Social,2025-10-15,56671,1887345,93765
+s102,m3,Last Kingdom Launch,Streaming Promo,2025-10-15,39249,1173741,55916
+s103,m3,Last Kingdom Launch,Search,2025-11-15,88332,2101599,149277
+s104,m3,Last Kingdom Launch,Social,2025-11-15,23069,426180,44182
+s105,m3,Last Kingdom Launch,Streaming Promo,2025-11-15,97660,2187362,191913
+s106,m3,Last Kingdom Launch,Search,2025-12-15,117748,4099161,187435
+s107,m3,Last Kingdom Launch,Social,2025-12-15,102279,2998191,202747
+s108,m3,Last Kingdom Launch,Streaming Promo,2025-12-15,50649,1213333,60695
+s109,m4,Laugh Track Launch,Search,2025-01-15,31298.8,800773,41220
+s110,m4,Laugh Track Launch,Social,2025-01-15,57835.05,1437016,91527
+s111,m4,Laugh Track Launch,Streaming Promo,2025-01-15,46633.6,1530713,75454
+s112,m4,Laugh Track Launch,Search,2025-02-15,60626.8,1471936,129289
+s113,m4,Laugh Track Launch,Social,2025-02-15,64253.8,2087567,61328
+s114,m4,Laugh Track Launch,Streaming Promo,2025-02-15,44487.3,1233187,38098
+s115,m4,Laugh Track Launch,Search,2025-03-15,18755.75,615137,25969
+s116,m4,Laugh Track Launch,Social,2025-03-15,61822.8,1438303,88612
+s117,m4,Laugh Track Launch,Streaming Promo,2025-03-15,41781.35,1307043,61222
+s118,m4,Laugh Track Launch,Search,2025-04-15,27109.55,813897,43396
+s119,m4,Laugh Track Launch,Social,2025-04-15,73268.0,1703511,124791
+s120,m4,Laugh Track Launch,Streaming Promo,2025-04-15,67859.35,1866742,72568
+s121,m4,Laugh Track Launch,Search,2025-05-15,64701.65,1517080,105104
+s122,m4,Laugh Track Launch,Social,2025-05-15,54871.7,1791756,45684
+s123,m4,Laugh Track Launch,Streaming Promo,2025-05-15,50232.0,1058319,41877
+s124,m4,Laugh Track Launch,Search,2025-06-15,46221.5,909576,46195
+s125,m4,Laugh Track Launch,Social,2025-06-15,40621.75,909313,86045
+s126,m4,Laugh Track Launch,Streaming Promo,2025-06-15,23305.75,440057,26463
+s127,m4,Laugh Track Launch,Search,2025-07-15,33985.25,1052544,58188
+s128,m4,Laugh Track Launch,Social,2025-07-15,23697.7,549275,32452
+s129,m4,Laugh Track Launch,Streaming Promo,2025-07-15,20148.7,652550,30235
+s130,m4,Laugh Track Launch,Search,2025-08-15,70933.2,1735211,91644
+s131,m4,Laugh Track Launch,Social,2025-08-15,66861.6,1445335,132182
+s132,m4,Laugh Track Launch,Streaming Promo,2025-08-15,36966.8,693986,67828
+s133,m4,Laugh Track Launch,Search,2025-09-15,40402.05,961880,58329
+s134,m4,Laugh Track Launch,Social,2025-09-15,64076.35,1511162,133254
+s135,m4,Laugh Track Launch,Streaming Promo,2025-09-15,24392.55,707128,19583
+s136,m4,Laugh Track Launch,Search,2025-10-15,28095.6,906517,54410
+s137,m4,Laugh Track Launch,Social,2025-10-15,13718.25,276024,18089
+s138,m4,Laugh Track Launch,Streaming Promo,2025-10-15,29441.75,752466,32684
+s139,m4,Laugh Track Launch,Search,2025-11-15,67392.65,1666853,135990
+s140,m4,Laugh Track Launch,Social,2025-11-15,61485.45,1629704,63862
+s141,m4,Laugh Track Launch,Streaming Promo,2025-11-15,29508.05,862144,46976
+s142,m4,Laugh Track Launch,Search,2025-12-15,70345.6,2394019,61384
+s143,m4,Laugh Track Launch,Social,2025-12-15,40518.4,1027275,88862
+s144,m4,Laugh Track Launch,Streaming Promo,2025-12-15,36346.7,729449,55451
+s145,m5,City Beats Launch,Search,2025-01-15,45805,952569,56575
+s146,m5,City Beats Launch,Social,2025-01-15,102050,2921692,85622
+s147,m5,City Beats Launch,Streaming Promo,2025-01-15,76616,2431562,124849
+s148,m5,City Beats Launch,Search,2025-02-15,24370,595011,49863
+s149,m5,City Beats Launch,Social,2025-02-15,110880,2118415,108501
+s150,m5,City Beats Launch,Streaming Promo,2025-02-15,77923,1475192,128965
+s151,m5,City Beats Launch,Search,2025-03-15,64514,1875142,112647
+s152,m5,City Beats Launch,Social,2025-03-15,23404,601934,29476
+s153,m5,City Beats Launch,Streaming Promo,2025-03-15,45228,897147,36960
+s154,m5,City Beats Launch,Search,2025-04-15,66890,1557881,136409
+s155,m5,City Beats Launch,Social,2025-04-15,39087,801516,48160
+s156,m5,City Beats Launch,Streaming Promo,2025-04-15,64944,1490340,140173
+s157,m5,City Beats Launch,Search,2025-05-15,98612,2935781,196515
+s158,m5,City Beats Launch,Social,2025-05-15,94199,3237817,156610
+s159,m5,City Beats Launch,Streaming Promo,2025-05-15,74879,1766135,70894
+s160,m5,City Beats Launch,Search,2025-06-15,92704,1850206,111875
+s161,m5,City Beats Launch,Social,2025-06-15,45480,1306762,94497
+s162,m5,City Beats Launch,Streaming Promo,2025-06-15,67174,1259269,56530
+s163,m5,City Beats Launch,Search,2025-07-15,79795,1762076,154266
+s164,m5,City Beats Launch,Social,2025-07-15,106626,2229881,163958
+s165,m5,City Beats Launch,Streaming Promo,2025-07-15,101684,3354380,206392
+s166,m5,City Beats Launch,Search,2025-08-15,52397,990586,100280
+s167,m5,City Beats Launch,Social,2025-08-15,36575,1187793,78846
+s168,m5,City Beats Launch,Streaming Promo,2025-08-15,84092,1812774,76857
+s169,m5,City Beats Launch,Search,2025-09-15,96543,2804142,105239
+s170,m5,City Beats Launch,Social,2025-09-15,46607,1197117,52579
+s171,m5,City Beats Launch,Streaming Promo,2025-09-15,48651,1128799,99452
+s172,m5,City Beats Launch,Search,2025-10-15,55785,1366749,58651
+s173,m5,City Beats Launch,Social,2025-10-15,50643,1140258,45894
+s174,m5,City Beats Launch,Streaming Promo,2025-10-15,30802,708655,46279
+s175,m5,City Beats Launch,Search,2025-11-15,116969,3185432,136337
+s176,m5,City Beats Launch,Social,2025-11-15,59252,1350434,76155
+s177,m5,City Beats Launch,Streaming Promo,2025-11-15,72928,2485302,142253
+s178,m5,City Beats Launch,Search,2025-12-15,74747,1611765,106885
+s179,m5,City Beats Launch,Social,2025-12-15,93196,1725222,92686
+s180,m5,City Beats Launch,Streaming Promo,2025-12-15,36822,854076,67492
+s181,m6,Midnight Chef Launch,Search,2025-01-15,64785.5,1798182,87281
+s182,m6,Midnight Chef Launch,Social,2025-01-15,45487.0,976673,61266
+s183,m6,Midnight Chef Launch,Streaming Promo,2025-01-15,58536.4,1438202,85737
+s184,m6,Midnight Chef Launch,Search,2025-02-15,18961.8,487873,24955
+s185,m6,Midnight Chef Launch,Social,2025-02-15,13940.55,291650,27931
+s186,m6,Midnight Chef Launch,Streaming Promo,2025-02-15,48003.8,1183235,104909
+s187,m6,Midnight Chef Launch,Search,2025-03-15,52101.4,1181789,42224
+s188,m6,Midnight Chef Launch,Social,2025-03-15,25156.3,643433,49165
+s189,m6,Midnight Chef Launch,Streaming Promo,2025-03-15,64530.7,2047470,99132
+s190,m6,Midnight Chef Launch,Search,2025-04-15,28628.6,855275,26731
+s191,m6,Midnight Chef Launch,Social,2025-04-15,72521.8,2471302,82353
+s192,m6,Midnight Chef Launch,Streaming Promo,2025-04-15,26455.0,599316,44426
+s193,m6,Midnight Chef Launch,Search,2025-05-15,67429.05,2009807,124718
+s194,m6,Midnight Chef Launch,Social,2025-05-15,45472.7,1084168,61800
+s195,m6,Midnight Chef Launch,Streaming Promo,2025-05-15,29562.0,731466,24093
+s196,m6,Midnight Chef Launch,Search,2025-06-15,76168.3,1877125,69207
+s197,m6,Midnight Chef Launch,Social,2025-06-15,13954.85,411884,14162
+s198,m6,Midnight Chef Launch,Streaming Promo,2025-06-15,43507.75,914749,78321
+s199,m6,Midnight Chef Launch,Search,2025-07-15,14366.3,361579,31390
+s200,m6,Midnight Chef Launch,Social,2025-07-15,41720.9,1332939,73092
+s201,m6,Midnight Chef Launch,Streaming Promo,2025-07-15,18382.0,399802,37411
+s202,m6,Midnight Chef Launch,Search,2025-08-15,14020.5,345131,20221
+s203,m6,Midnight Chef Launch,Social,2025-08-15,18623.8,543542,22159
+s204,m6,Midnight Chef Launch,Streaming Promo,2025-08-15,66155.05,1605758,59160
+s205,m6,Midnight Chef Launch,Search,2025-09-15,72102.55,1460785,75380
+s206,m6,Midnight Chef Launch,Social,2025-09-15,77895.35,2572683,96991
+s207,m6,Midnight Chef Launch,Streaming Promo,2025-09-15,69772.3,1827770,88551
+s208,m6,Midnight Chef Launch,Search,2025-10-15,44907.85,1189085,48626
+s209,m6,Midnight Chef Launch,Social,2025-10-15,45012.5,966623,38398
+s210,m6,Midnight Chef Launch,Streaming Promo,2025-10-15,74793.55,2106730,158878
+s211,m6,Midnight Chef Launch,Search,2025-11-15,31951.4,905409,42625
+s212,m6,Midnight Chef Launch,Social,2025-11-15,40402.05,853302,67943
+s213,m6,Midnight Chef Launch,Streaming Promo,2025-11-15,18504.85,606732,16616
+s214,m6,Midnight Chef Launch,Search,2025-12-15,38823.2,887148,55423
+s215,m6,Midnight Chef Launch,Social,2025-12-15,67150.85,1438627,134798
+s216,m6,Midnight Chef Launch,Streaming Promo,2025-12-15,53994.2,1045342,116712
+s217,m7,Rogue Signal Launch,Search,2025-01-15,43029,962729,62353
+s218,m7,Rogue Signal Launch,Social,2025-01-15,79454,1812730,126093
+s219,m7,Rogue Signal Launch,Streaming Promo,2025-01-15,83025,1595987,82304
+s220,m7,Rogue Signal Launch,Search,2025-02-15,36315,891244,57808
+s221,m7,Rogue Signal Launch,Social,2025-02-15,45457,1407810,97275
+s222,m7,Rogue Signal Launch,Streaming Promo,2025-02-15,118510,3588265,179359
+s223,m7,Rogue Signal Launch,Search,2025-03-15,106848,3451806,87323
+s224,m7,Rogue Signal Launch,Social,2025-03-15,32098,929389,66880
+s225,m7,Rogue Signal Launch,Streaming Promo,2025-03-15,72122,2163889,156057
+s226,m7,Rogue Signal Launch,Search,2025-04-15,47462,1604703,64413
+s227,m7,Rogue Signal Launch,Social,2025-04-15,60383,1093484,62542
+s228,m7,Rogue Signal Launch,Streaming Promo,2025-04-15,84451,1522384,75818
+s229,m7,Rogue Signal Launch,Search,2025-05-15,73581,1875757,152913
+s230,m7,Rogue Signal Launch,Social,2025-05-15,34312,1124135,35429
+s231,m7,Rogue Signal Launch,Streaming Promo,2025-05-15,58420,1136679,56933
+s232,m7,Rogue Signal Launch,Search,2025-06-15,119793,2697643,177329
+s233,m7,Rogue Signal Launch,Social,2025-06-15,119209,2828771,167039
+s234,m7,Rogue Signal Launch,Streaming Promo,2025-06-15,68599,2029955,87827
+s235,m7,Rogue Signal Launch,Search,2025-07-15,52576,1275667,87575
+s236,m7,Rogue Signal Launch,Social,2025-07-15,106360,3487278,161760
+s237,m7,Rogue Signal Launch,Streaming Promo,2025-07-15,106537,2258040,232320
+s238,m7,Rogue Signal Launch,Search,2025-08-15,45569,1371764,91949
+s239,m7,Rogue Signal Launch,Social,2025-08-15,94959,2976266,171242
+s240,m7,Rogue Signal Launch,Streaming Promo,2025-08-15,24160,487395,46279
+s241,m7,Rogue Signal Launch,Search,2025-09-15,70264,2180098,77889
+s242,m7,Rogue Signal Launch,Social,2025-09-15,53767,1576494,114636
+s243,m7,Rogue Signal Launch,Streaming Promo,2025-09-15,107897,2167938,106824
+s244,m7,Rogue Signal Launch,Search,2025-10-15,64595,1975953,136430
+s245,m7,Rogue Signal Launch,Social,2025-10-15,117598,3999993,188389
+s246,m7,Rogue Signal Launch,Streaming Promo,2025-10-15,36700,1192992,78380
+s247,m7,Rogue Signal Launch,Search,2025-11-15,58905,1898666,88343
+s248,m7,Rogue Signal Launch,Social,2025-11-15,79740,1635166,95428
+s249,m7,Rogue Signal Launch,Streaming Promo,2025-11-15,117918,3456290,226615
+s250,m7,Rogue Signal Launch,Search,2025-12-15,49500,1480392,43242
+s251,m7,Rogue Signal Launch,Social,2025-12-15,43464,1415415,79032
+s252,m7,Rogue Signal Launch,Streaming Promo,2025-12-15,59203,2056393,102003
