@@ -38,6 +38,36 @@ The system combines:
 
 ---
 
+# Screenshots
+
+## Dashboard Overview
+
+![Dashboard](./screenshots/dashboard.png)
+
+---
+
+## Filter and Access
+
+![Filter](./screenshots/filter.png)
+
+---
+
+## AI Analytics Assistant
+
+![Chat](./screenshots/chat.png)
+
+---
+
+## Backend Tool Trace
+
+![Tool Trace](./screenshots/tool_trace.png)
+
+---
+
+## Analytics Visualizations
+
+![Analytics](./screenshots/analytics.png)
+
 # Key Features
 
 ## AI Analytics Assistant
@@ -527,6 +557,55 @@ logs/insightforge.log
 
 ---
 
+# Assumptions & Tradeoffs
+
+## Assumptions
+
+- The platform is designed as an internal enterprise analytics assistant for authenticated users only.
+- SQLite was assumed sufficient for the prototype scale and local execution requirements.
+- Ollama with Llama 3.1 8B was chosen to enable fully local LLM inference without external API dependency.
+- Business datasets and internal reports are assumed to be trusted and pre-ingested by administrators.
+- API-key based authentication was assumed acceptable for prototype-level internal access control.
+- Users are assumed to interact through approved backend analytics tools rather than direct database access.
+
+---
+
+## Tradeoffs
+
+### SQLite vs PostgreSQL
+SQLite was chosen for simplicity, portability, and fast local setup.  
+Tradeoff: Lacks horizontal scalability and advanced concurrency features required for production workloads.
+
+---
+
+### Lightweight Retrieval vs Vector Database
+A lightweight retrieval approach was implemented instead of a full embedding/vector database pipeline.  
+Tradeoff: Simpler architecture and faster implementation, but lower semantic retrieval quality compared to production RAG systems.
+
+---
+
+### Local Ollama Inference vs Hosted LLM APIs
+Local Ollama inference improves privacy, portability, and removes external API cost dependencies.  
+Tradeoff: Slower inference speed and reduced model capability compared to enterprise hosted models.
+
+---
+
+### API Key Authentication vs OAuth/JWT
+Simple API-key authentication was implemented for faster prototype development.  
+Tradeoff: Lacks enterprise-grade identity management, token expiration, SSO integration, and fine-grained user management.
+
+---
+
+### Backend-Controlled Tools vs Autonomous Agent Access
+The LLM is intentionally restricted to approved backend analytics tools rather than unrestricted SQL/database access.  
+Tradeoff: Reduced flexibility, but significantly improved security, explainability, auditability, and reliability.
+
+---
+
+### Focus on Reliability Over Agent Complexity
+The orchestration layer prioritizes deterministic backend analytics and structured prompts over fully autonomous agent workflows.  
+Tradeoff: Less flexible agent behavior, but more reliable and explainable outputs.
+
 # Example Questions
 
 ```text
@@ -554,13 +633,6 @@ What recommendations would you give for leadership?
 ```
 
 ---
-
-# Production Considerations
-
-Current prototype prioritizes:
-- portability
-- simplicity
-- local execution
 
 # Author
 

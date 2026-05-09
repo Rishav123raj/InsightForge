@@ -16,7 +16,6 @@ export function HistoryPanel({ messages }: HistoryPanelProps) {
     <section className="panel history-panel">
       <div className="panel__header">
         <h2>Query history & trace</h2>
-        <span>Auditable UX</span>
       </div>
 
       <div className="history-section">
