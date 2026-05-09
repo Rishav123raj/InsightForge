@@ -1,0 +1,8 @@
+services:
+  secure-ai-assistant:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      ASSISTANT_API_KEY: ${ASSISTANT_API_KEY:-}
+      OLLAMA_API_KEY: ${OLLAMA_API_KEY:-}

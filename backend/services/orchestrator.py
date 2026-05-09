@@ -1,4 +1,5 @@
 import json
+import logging
 import re
 
 from . import tools
@@ -6,7 +7,31 @@ from .llm import generate_answer
 from .retriever import retrieve_documents
 
 
+# -----------------------------------------------------------------------------
+# Logging Configuration
+# -----------------------------------------------------------------------------
+
+logging.basicConfig(
+    level=logging.INFO,
+
+    format="%(asctime)s | %(levelname)s | %(message)s",
+
+    handlers=[
+        logging.FileHandler("insightforge.log"),
+        logging.StreamHandler()
+    ]
+)
+
+logger = logging.getLogger("insightforge.orchestrator")
+
+
+# -----------------------------------------------------------------------------
+# Tool Detection
+# -----------------------------------------------------------------------------
+
 def _detect_tools(question: str) -> tuple[list[str], dict]:
+
+    logger.info(f"Detecting tools for question: {question}")
 
     q = question.lower()
 
@@ -18,14 +43,30 @@ def _detect_tools(question: str) -> tuple[list[str], dict]:
     year_match = re.search(r"20\\d{2}", q)
 
     if year_match:
+
         year = int(year_match.group(0))
 
-    if any(x in q for x in ["best", "performed", "top titles", "top movies"]):
+        logger.info(f"Detected year in query: {year}")
+
+    if any(x in q for x in [
+        "best",
+        "performed",
+        "top titles",
+        "top movies"
+    ]):
+
+        logger.info("Triggering tool: best_titles")
+
         selected.append("best_titles")
+
         payload["best_titles"] = tools.best_titles(year)
 
     if "dark orbit" in q and "last kingdom" in q:
+
+        logger.info("Triggering tool: compare_titles")
+
         selected.append("compare_titles")
+
         payload["compare_titles"] = tools.compare_titles(
             "Dark Orbit",
             "Last Kingdom"
@@ -38,7 +79,11 @@ def _detect_tools(question: str) -> tuple[list[str], dict]:
         "regional",
         "last month"
     ]):
+
+        logger.info("Triggering tool: city_engagement")
+
         selected.append("city_engagement")
+
         payload["city_engagement"] = tools.city_engagement("2025-12")
 
     if any(x in q for x in [
@@ -47,7 +92,11 @@ def _detect_tools(question: str) -> tuple[list[str], dict]:
         "growing",
         "trending"
     ]):
+
+        logger.info("Triggering tool: genre_growth")
+
         selected.append("genre_growth")
+
         payload["genre_growth"] = tools.genre_growth()
 
     if any(x in q for x in [
@@ -55,10 +104,20 @@ def _detect_tools(question: str) -> tuple[list[str], dict]:
         "weak",
         "poor performance"
     ]):
+
+        logger.info("Triggering tool: weak_comedy")
+
         selected.append("weak_comedy")
+
         payload["weak_comedy"] = tools.weak_comedy()
 
     if not selected:
+
+        logger.info(
+            "No direct tools matched. "
+            "Using default analytics tools."
+        )
+
         selected.extend([
             "best_titles",
             "genre_growth",
@@ -80,8 +139,14 @@ def _detect_tools(question: str) -> tuple[list[str], dict]:
             tools.city_engagement("2025-12")
         )
 
+    logger.info(f"Selected tools: {selected}")
+
     return selected, payload
 
+
+# -----------------------------------------------------------------------------
+# Prompt Builder
+# -----------------------------------------------------------------------------
 
 def _build_prompt(
     question: str,
@@ -90,9 +155,16 @@ def _build_prompt(
     user: dict
 ) -> str:
 
+    logger.info("Building LLM prompt")
+
     document_context = []
 
     for doc in documents[:4]:
+
+        logger.info(
+            f"Adding retrieved document to prompt: "
+            f"{doc['title']}"
+        )
 
         document_context.append(
             f'''
@@ -129,14 +201,38 @@ INSTRUCTIONS:
 - Keep answer under 250 words
 """
 
+    logger.info(
+        f"Prompt built successfully "
+        f"(length={len(prompt)} chars)"
+    )
+
     return prompt
 
 
+# -----------------------------------------------------------------------------
+# Main Orchestration
+# -----------------------------------------------------------------------------
+
 def answer_question(question: str, user: dict) -> dict:
+
+    logger.info(
+        f"Starting orchestration for user role={user.get('role')}"
+    )
+
+    logger.info(f"Incoming question: {question}")
 
     tool_names, tool_payload = _detect_tools(question)
 
+    logger.info(
+        f"Tool execution completed. "
+        f"Tools used: {tool_names}"
+    )
+
     documents = retrieve_documents(question)
+
+    logger.info(
+        f"Retrieved {len(documents)} supporting documents"
+    )
 
     prompt = _build_prompt(
         question=question,
@@ -145,9 +241,13 @@ def answer_question(question: str, user: dict) -> dict:
         user=user
     )
 
+    logger.info("Sending prompt to LLM")
+
     llm_answer = generate_answer(prompt)
 
-    return {
+    logger.info("LLM response generated successfully")
+
+    response = {
         "answer": llm_answer,
 
         "sources": {
@@ -170,8 +270,18 @@ def answer_question(question: str, user: dict) -> dict:
             "access used role-scoped backend tools only.",
     }
 
+    logger.info("Final response payload prepared")
+
+    return response
+
+
+# -----------------------------------------------------------------------------
+# Chart Builder
+# -----------------------------------------------------------------------------
 
 def build_chart(payload: dict) -> dict:
+
+    logger.info("Building chart payload")
 
     rows = (
         payload.get("best_titles")
@@ -180,6 +290,9 @@ def build_chart(payload: dict) -> dict:
     )
 
     if not rows:
+
+        logger.warning("No chart data available")
+
         return {
             "type": "bar",
             "labels": [],
@@ -188,6 +301,8 @@ def build_chart(payload: dict) -> dict:
         }
 
     if "title" in rows[0]:
+
+        logger.info("Generating revenue-by-title chart")
 
         return {
             "type": "bar",
@@ -201,6 +316,8 @@ def build_chart(payload: dict) -> dict:
             ],
             "title": "Revenue by title"
         }
+
+    logger.info("Generating city engagement chart")
 
     return {
         "type": "bar",
@@ -216,13 +333,19 @@ def build_chart(payload: dict) -> dict:
     }
 
 
+# -----------------------------------------------------------------------------
+# Local Testing
+# -----------------------------------------------------------------------------
+
 if __name__ == "__main__":
 
-    print("Testing Ollama-powered analytics assistant...\\n")
+    print("Testing Ollama-powered analytics assistant...\n")
 
     question = (
         "Why is Stellar Run trending recently?"
     )
+
+    logger.info("Running standalone orchestrator test")
 
     response = answer_question(
         question,
@@ -230,19 +353,19 @@ if __name__ == "__main__":
     )
 
     print("=" * 80)
-    print("ANSWER:\\n")
+    print("ANSWER:\n")
     print(response["answer"])
 
-    print("\\n" + "=" * 80)
-    print("TOOL TRACE:\\n")
+    print("\n" + "=" * 80)
+    print("TOOL TRACE:\n")
     print(response["tool_trace"])
 
-    print("\\n" + "=" * 80)
-    print("DOCUMENT SOURCES:\\n")
+    print("\n" + "=" * 80)
+    print("DOCUMENT SOURCES:\n")
 
     for doc in response["sources"]["documents"]:
         print(f"- {doc['title']} (score={doc['score']})")
 
-    print("\\n" + "=" * 80)
-    print("CHART:\\n")
+    print("\n" + "=" * 80)
+    print("CHART:\n")
     print(response["chart"])
