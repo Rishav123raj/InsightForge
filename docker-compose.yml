@@ -1,8 +1,29 @@
 services:
-  secure-ai-assistant:
+
+  backend:
     build: .
+    container_name: insightforge-backend
+
     ports:
       - "8000:8000"
-    environment:
-      ASSISTANT_API_KEY: ${ASSISTANT_API_KEY:-}
-      OLLAMA_API_KEY: ${OLLAMA_API_KEY:-}
+
+    env_file:
+      - .env
+
+    volumes:
+      - ./logs:/app/logs
+
+    restart: unless-stopped
+
+
+  frontend:
+    build: ./frontend
+    container_name: insightforge-frontend
+
+    ports:
+      - "5173:5173"
+
+    depends_on:
+      - backend
+
+    restart: unless-stopped
