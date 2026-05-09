@@ -3,6 +3,7 @@ from fastapi import Depends, FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
+from contextlib import asynccontextmanager
 from pydantic import BaseModel, Field
 from backend.services.ingest import init_db
 from backend.services.orchestrator import answer_question
@@ -10,16 +11,23 @@ from backend.services.security import require_user
 from backend.services import tools
 
 BASE_DIR = Path(__file__).resolve().parent
-app = FastAPI(title="Secure AI Insights Assistant", version="1.0.0")
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    init_db()
+    yield
+
+app = FastAPI(title="Secure AI Insights Assistant", version="1.0.0", lifespan=lifespan)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:8000", "http://127.0.0.1:8000"],
+    allow_origins=[
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-# app.mount("/static", StaticFiles(directory=BASE_DIR / "static"), name="static")
-
 
 class ChatRequest(BaseModel):
     question: str = Field(min_length=3, max_length=600)
@@ -27,17 +35,6 @@ class ChatRequest(BaseModel):
 
 class SqlRequest(BaseModel):
     sql: str = Field(min_length=8, max_length=1200)
-
-
-@app.on_event("startup")
-def startup() -> None:
-    init_db()
-
-
-# @app.get("/")
-# def ui() -> FileResponse:
-#     return FileResponse(BASE_DIR / "static" / "index.html")
-
 
 @app.get("/api/health")
 def health() -> dict:
